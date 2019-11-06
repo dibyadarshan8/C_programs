@@ -10,16 +10,9 @@ int main()
 	{
 		for(j=1;j<=i;j++)
 		{
-			if(i%2!=0)
-			{
-				printf("1\t");
-			}
-			else
-			{
-				printf("0\t");
-			}
-			printf("\n");
+			printf("%d\t",i%2);
 		}
+		printf("\n");
 	}
 	return 0;
 }
